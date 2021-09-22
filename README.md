@@ -1,2 +1,2 @@
 The goal of the project is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
-This is done by Exploratory Data Analysis, after which the data is split into train and test data and  Classifiaction machine learning algorithms are applied on the dataset after which the hyper parameter tuning is done to obtain the optimal parameters so that the algorithm can give us the best predictions possible. 
+This is done by Exploratory Data Analysis, after which the data is split into train and test data and  Classification machine learning algorithms are applied on the dataset after which the hyper parameter tuning is done to obtain the optimal parameters so that the algorithm can give us the best predictions possible. 
