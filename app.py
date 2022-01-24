@@ -62,8 +62,6 @@ heart_rate = st.number_input('Enter your heart rate(Beats/min)')
 glucose = st.number_input('total glucose mg/dL')
 
 dataframe = pd.DataFrame([[age,gender,is_smoking,cigs_per_day,BPMeds,prevalent_stroke,hyper_tension,diabetes,chol,sysbp,diabp,bmi,heart_rate,glucose]])
-st.write(dataframe)
- # Gives error because there is ony one value and mean and variance of that value is one only.so after transforming it
 
 if st.button('Make Prediction'):
     prediction = model.predict(dataframe)
