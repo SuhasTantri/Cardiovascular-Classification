@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
 import pickle
-from sklearn.preprocessing import StandardScaler
-
 
 with open('classifier_model.pkl', 'rb') as fid:
      model = pickle.load(fid)
